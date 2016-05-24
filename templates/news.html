@@ -1,118 +1,111 @@
 {% load staticfiles %}
-<section id="news" class="g-bg-dark-blue1">
-    <div class="container g-pt-80">
-        <div class="row g-mb-60 text-center g-heading-v7">
-            <div class="col-sm-8 col-sm-offset-2">
-                <h2 class="h2">
-                    <span class="block-name">From Our Blog</span>
-                    <span class="g-text-height-lg">Latest News</span>
-                </h2>
+<!-- News v3 gray -->
+<div class="headline-center margin-bottom-60 news-heading">
+    <h2>Latest News</h2>
+    <p>Phasellus vitae ipsum ex. Etiam eu vestibulum ante. <br>
+        Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipiscing elit. Morbi libero libero, imperdiet fringilla </p>
+</div>
+<div class="container content-md">
+    <div class="row">
+        <div class="col-md-4 news-v3">
+            <!--img class="img-responsive full-width" src="assets/img/main/img10.jpg" alt=""-->
+             <img class="img-responsive full-width" src="{% static 'home/assets/img/main/3.jpg' %}" alt="">
+            <div class="news-v3-in-sm bg-color-light">
+                <ul class="list-inline posted-info-sm">
+                    <li>By: <a href="#">Alex</a></li>
+                    <li>In: <a href="#">Design</a></li>
+                    <li>Posted: Jan 24, 2015</li>
+                </ul>
+                <h2><a href="#">Incredible standard post</a></h2>
+                <p>Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellus, imperdiet molestie est volutpat at. Sed viverra cursus nibh, sed consectetur ipsum sollicitudin sed.</p>
+                <ul class="post-shares">
+                    <li>
+                        <a href="#">
+                            <i class="rounded-x icon-speech"></i>
+                            <span>26</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="rounded-x icon-share"></i>
+                            <span>98</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="rounded-x icon-heart"></i>
+                            <span>30</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-                <p>Sed feugiat porttitor nunc, non dignissim ipsum vestibulum in. Donec in blandit dolor. Vivamus a
-                    fringilla lorem, vel faucibus ante. Nunc ullamcorper, justo a iaculis elementum, enim orci viverra
-                    eros, fringilla porttitor lorem eros vel odio.</p>
+        <div class="col-md-4 news-v3">
+             <img class="img-responsive full-width" src="{% static 'home/assets/img/main/11.jpg' %}" alt="">
+            <div class="news-v3-in-sm bg-color-light">
+                <ul class="list-inline posted-info-sm">
+                    <li>By: <a href="#">Susan</a></li>
+                    <li>In: <a href="#">Wordpress</a></li>
+                    <li>Posted: Jan 24, 2015</li>
+                </ul>
+                <h2><a href="#">Imperdiet molesti volutpa</a></h2>
+                <p>Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellus, imperdiet molestie est volutpat at. Sed viverra cursus nibh, sed consectetur ipsum sollicitudin sed.</p>
+                <ul class="post-shares">
+                    <li>
+                        <a href="#">
+                            <i class="rounded-x icon-speech"></i>
+                            <span>26</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="rounded-x icon-share"></i>
+                            <span>98</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="rounded-x icon-heart"></i>
+                            <span>30</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-4 news-v3">
+             <img class="img-responsive full-width" src="{% static 'home/assets/img/main/13.jpg' %}" alt="">
+            <div class="news-v3-in-sm bg-color-light">
+                <ul class="list-inline posted-info-sm">
+                    <li>By: <a href="#">Joe</a></li>
+                    <li>In: <a href="#">Unify</a></li>
+                    <li>Posted: Jan 24, 2015</li>
+                </ul>
+                <h2><a href="#">Nullam non metus inmi</a></h2>
+                <p>Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellus, imperdiet molestie est volutpat at. Sed viverra cursus nibh, sed consectetur ipsum sollicitudin sed.</p>
+                <ul class="post-shares">
+                    <li>
+                        <a href="#">
+                            <i class="rounded-x icon-speech"></i>
+                            <span>26</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="rounded-x icon-share"></i>
+                            <span>98</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="rounded-x icon-heart"></i>
+                            <span>30</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-
-    <div class="container-fluid g-text-height-md g-no-side-padding">
-        <ul class="list-unstyled owl2-carousel-v4 g-no-mb">
-            <li class="item">
-                <div class="owl2-carousel-v2__item">
-                    <img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/news/img1.jpg" alt="">
-
-                    <div class="owl2-carousel-v2__item-info owl2-carousel-v2__item-info--news">
-			  			<span class="owl2-carousel-v2__item-info__item">
-					  		<em>May 20, 2016</em>
-					  		<span>MASTER CLASS OF THE WEEK</span>
-					  		<em>By Kate Lee for Business</em>
-			  			</span>
-                    </div>
-                </div>
-                <div class="owl2-carousel-v2__item">
-                    <img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/news/img2.jpg" alt="">
-
-                    <div class="owl2-carousel-v2__item-info owl2-carousel-v2__item-info--news">
-			  			<span class="owl2-carousel-v2__item-info__item">
-					  		<em>May 20, 2016</em>
-					  		<span>MASTER CLASS OF THE WEEK</span>
-					  		<em>By Kate Lee for Business</em>
-			  			</span>
-                    </div>
-                </div>
-            </li>
-            <li class="item">
-                <div class="owl2-carousel-v2__item">
-                    <img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/news/img4.jpg" alt="">
-
-                    <div class="owl2-carousel-v2__item-info owl2-carousel-v2__item-info--news">
-			  			<span class="owl2-carousel-v2__item-info__item">
-					  		<em>May 20, 2016</em>
-					  		<span>MASTER CLASS OF THE WEEK</span>
-					  		<em>By Kate Lee for Business</em>
-			  			</span>
-                    </div>
-                </div>
-                <div class="owl2-carousel-v2__item">
-                    <img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/news/img3.jpg" alt="">
-
-                    <div class="owl2-carousel-v2__item-info owl2-carousel-v2__item-info--news">
-			  			<span class="owl2-carousel-v2__item-info__item">
-					  		<em>May 20, 2016</em>
-					  		<span>MASTER CLASS OF THE WEEK</span>
-					  		<em>By Kate Lee for Business</em>
-			  			</span>
-                    </div>
-                </div>
-            </li>
-            <li class="item">
-                <div class="owl2-carousel-v2__item">
-                    <img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/news/img6.jpg" alt="">
-
-                    <div class="owl2-carousel-v2__item-info owl2-carousel-v2__item-info--news">
-			  			<span class="owl2-carousel-v2__item-info__item">
-					  		<em>May 20, 2016</em>
-					  		<span>MASTER CLASS OF THE WEEK</span>
-					  		<em>By Kate Lee for Business</em>
-			  			</span>
-                    </div>
-                </div>
-                <div class="owl2-carousel-v2__item">
-                    <img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/news/img5.jpg" alt="">
-
-                    <div class="owl2-carousel-v2__item-info owl2-carousel-v2__item-info--news">
-			  			<span class="owl2-carousel-v2__item-info__item">
-					  		<em>May 20, 2016</em>
-					  		<span>MASTER CLASS OF THE WEEK</span>
-					  		<em>By Kate Lee for Business</em>
-			  			</span>
-                    </div>
-                </div>
-            </li>
-            <li class="item">
-                <div class="owl2-carousel-v2__item">
-                    <img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/news/img7.jpg" alt="">
-
-                    <div class="owl2-carousel-v2__item-info owl2-carousel-v2__item-info--news">
-			  			<span class="owl2-carousel-v2__item-info__item">
-					  		<em>May 20, 2016</em>
-					  		<span>MASTER CLASS OF THE WEEK</span>
-					  		<em>By Kate Lee for Business</em>
-			  			</span>
-                    </div>
-                </div>
-                <div class="owl2-carousel-v2__item">
-                    <img class="img-responsive owl2-carousel-v2__item-img" src="assets/img-temp/news/img4.jpg" alt="">
-
-                    <div class="owl2-carousel-v2__item-info owl2-carousel-v2__item-info--news">
-			  			<span class="owl2-carousel-v2__item-info__item">
-					  		<em>May 20, 2016</em>
-					  		<span>MASTER CLASS OF THE WEEK</span>
-					  		<em>By Kate Lee for Business</em>
-			  			</span>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div>
-</section>
+</div>
+<!-- End News v3 Gray -->

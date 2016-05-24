@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--[if !IE]><!-->
+<html lang="en"> <!--<![endif]-->
+<head>
+    <title>Higher Studies Bangladesh</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    {% load staticfiles %}
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <!-- Web Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,cyrillic' rel='stylesheet'
+          type='text/css'>
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/app.css' %}">
+    <link rel="stylesheet" href="{% static 'css/blocks.css' %}">
+
+    <!-- CSS Header and Footer -->
+		<link rel="stylesheet" href="{% static 'home/assets/css/footers/footer-v2.css' %}">
+
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="{% static 'plugins/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'plugins/font-awesome/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'plugins/sky-forms-pro/skyforms/css/sky-forms.css' %}">
+    <link rel="stylesheet" href="{% static 'plugins/sky-forms-pro/skyforms/custom/custom-sky-forms.css' %}">
+    <link rel="stylesheet" href="{% static 'plugins/owl-carousel2/assets/owl.carousel.css' %}">
+    <link rel="stylesheet" href="{% static 'plugins/line-icons/line-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'plugins/pace/pace-flash.css' %}">
+
+    <!-- CSS Thematic Theme -->
+    <link rel="stylesheet" href="{% static 'home/assets/css/business.style.css' %}">
+    <link rel="stylesheet" href="{% static 'home/assets/css/global.css' %}">
+    <link rel="stylesheet" href="{% static 'home/assets/css/page_search.css' %}">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="{% static 'home/assets/css/custom.css' %}">
+</head>
+
+<body id="body" data-spy="scroll" data-target=".one-page-header">
+<!-- Header -->
+{% include 'nav.html' %}
+<!-- End Header -->
+
+<!-- Search Block -->
+{% include 'searchBlock.html' %}
+<!-- End Search Block -->
+
+<!--Introductory word-->
+{% include 'introductoryWord.html' %}
+<!-- End Introductory word-->
+
+<!-- Testimonials -->
+{% include 'testimonials.html' %}
+<!-- End Testimonials -->
+
+<!-- Parallax Counter -->
+{% include 'parallaxCounter.html' %}
+<!-- End Parallax Counter -->
+
+<!-- News -->
+{% include 'news.html' %}
+<!-- End News -->
+
+<!-- Team -->
+{% include 'team.html' %}
+<!-- End Team -->
+
+<!-- Clients -->
+
+<!-- End Clients -->
+
+<!-- Contact -->
+{% include 'footer.html' %}
+<!-- End Contact -->
+
+<!-- JS Global Compulsory -->
+<script src="{% static 'plugins/jquery/jquery.min.js' %}"></script>
+<script src="{% static 'plugins/jquery/jquery-migrate.min.js' %}"></script>
+<script src="{% static 'plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+
+<!-- JS Implementing Plugins -->
+<script src="{% static 'plugins/smoothScroll.js' %}"></script>
+<script src="{% static 'plugins/pace/pace.min.js' %}"></script>
+<script src="{% static 'plugins/jquery.parallax.js' %}"></script>
+<script src="{% static 'plugins/owl-carousel2/owl.carousel.min.js' %}"></script>
+<script src="{% static 'plugins/backstretch/jquery.backstretch.min.js' %}"></script>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?signed_in=true&amp;callback=initMap" async defer></script>
+<script src="{% static 'home/assets/js/plugins/gmaps-ini.js' %}"></script>
+
+<!-- JS Page Level-->
+<script src="{% static 'js/one.app.js' %}"></script>
+<script src="{% static 'home/assets/js/plugins/promo.js' %}"></script>
+<script src="{% static 'home/assets/js/plugins/pace-loader.js' %}"></script>
+<script src="{% static 'home/assets/js/plugins/owl2-carousel-v1.js' %}"></script>
+<script src="{% static 'home/assets/js/plugins/owl2-carousel-v2.js' %}"></script>
+<script src="{% static 'home/assets/js/plugins/owl2-carousel-v3.js' %}"></script>
+<script src="{% static 'home/assets/js/plugins/owl2-carousel-v4.js' %}"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        App.init();
+        Owl2Carouselv1.initOwl2Carouselv1();
+        Owl2Carouselv2.initOwl2Carouselv2();
+        Owl2Carouselv3.initOwl2Carouselv3();
+        Owl2Carouselv4.initOwl2Carouselv4();
+    });
+</script>
+
+<!--[if lt IE 9]>
+  <script src="{% static 'plugins/respond.js' %}"></script>
+  <script src="{% static 'plugins/html5shiv.js' %}"></script>
+  <![endif]-->
+</body>
+</html>
