@@ -1,5 +1,5 @@
 body {
-	padding-top: 88px;
+	padding-top:0px;
 }
 
 /* Add here all your css styles (customizations) */
@@ -208,7 +208,7 @@ body {
 }
 /*added by MASUD */
 #headerTitle{
-	color: #FFF;
+	color: #3498db;
 }
 
 .search-block {
@@ -233,4 +233,10 @@ body {
 }
 #footer-v2{
 	padding-top: 20px;
+}
+
+.header{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	height: 80px;
 }

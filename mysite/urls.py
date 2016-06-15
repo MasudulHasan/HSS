@@ -21,4 +21,5 @@ urlpatterns = [
     #url(r'^poll/', include('poll.urls')),
     url(r'^$', include('poll.urls')),
     url(r'^FAQ/', include('FAQ.urls')),
+    url(r'^SOP/', include('SOP.urls')),
 ]
