@@ -240,3 +240,8 @@ body {
 	padding-top: 10px;
 	height: 80px;
 }
+.homepage-hero-module {
+  border-right: none;
+  border-left: none;
+  position: relative;
+}

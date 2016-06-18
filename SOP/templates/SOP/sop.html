@@ -54,8 +54,12 @@
 <!-- End Header -->
 
 <!-- Search Block -->
-{% include 'searchBlock.html' %}
+{% include 'searchBanner.html' %}
 <!-- End Search Block -->
+
+<!--Introductory word-->
+{% include 'importance_of_sop.html' %}
+<!-- End Introductory word-->
 
 <!-- FAQ Block -->
 {% include 'sop.html' %}
@@ -76,6 +80,10 @@
 <script src="{% static 'plugins/jquery.parallax.js' %}"></script>
 <script src="{% static 'plugins/owl-carousel2/owl.carousel.min.js' %}"></script>
 <script src="{% static 'plugins/backstretch/jquery.backstretch.min.js' %}"></script>
+
+<!-- JS Customization -->
+{#<script src="assets/js/custom.js"></script>#}
+<script src="{% static 'js/custom.js' %}"></script>
 
 <!-- Google Map -->
 <script src="https://maps.googleapis.com/maps/api/js?signed_in=true&amp;callback=initMap" async defer></script>
