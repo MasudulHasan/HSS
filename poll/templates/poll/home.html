@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="{% static 'plugins/owl-carousel2/assets/owl.carousel.css' %}">
     <link rel="stylesheet" href="{% static 'plugins/line-icons/line-icons.css' %}">
     <link rel="stylesheet" href="{% static 'plugins/pace/pace-flash.css' %}">
+    <link rel="stylesheet" href="{% static 'home/assets/css/parallax-slider.css' %}">
 
     <!-- CSS Thematic Theme -->
     <link rel="stylesheet" href="{% static 'home/assets/css/business.style.css' %}">
@@ -44,6 +45,8 @@
     <!-- CSS Customization -->
     <link rel="stylesheet" href="{% static 'home/assets/css/custom.css' %}">
     <link rel="stylesheet" href="{% static 'home/assets/css/homecustom.css' %}">
+
+
 </head>
 
 <body id="body" data-spy="scroll" data-target=".one-page-header">
@@ -51,25 +54,25 @@
 {% include 'nav.html' %}
 <!-- End Header -->
 
-<!-- Search Block -->
-{% include 'searchBlock.html' %}
-<!-- End Search Block -->
+<!-- slider Block -->
+{% include 'slider.html' %}
+<!-- End Slider Block -->
 
-<!--Introductory word-->
-{% include 'introductoryWord.html' %}
-<!-- End Introductory word-->
+<!--Feature Block-->
+{% include 'feature_block.html' %}
+<!-- End feature block-->
 
 <!-- Testimonials -->
-{% include 'testimonials.html' %}
+{% include 'aboutUs.html' %}
 <!-- End Testimonials -->
 
-<!-- Parallax Counter -->
+{% comment %}<!-- Parallax Counter -->
 {% include 'parallaxCounter.html' %}
 <!-- End Parallax Counter -->
 
 <!-- News -->
 {% include 'news.html' %}
-<!-- End News -->
+<!-- End News -->{% endcomment %}
 
 <!-- Team -->
 {% include 'team.html' %}
@@ -99,6 +102,10 @@
 <script src="{% static 'plugins/jquery.parallax.js' %}"></script>
 <script src="{% static 'plugins/owl-carousel2/owl.carousel.min.js' %}"></script>
 <script src="{% static 'plugins/backstretch/jquery.backstretch.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'plugins/modernizr.js' %}"></script>
+<script type="text/javascript" src="{% static 'plugins/parallax-slider/js/jquery.cslider.js' %}"></script>
+<script type="text/javascript" src="{% static 'plugins/owl-carousel/owl.carousel.js' %}"></script>
+<script type="text/javascript" src="{% static 'plugins/parallax-slider/js/jquery.cslider.js'%}"></script>
 
 <!-- JS Customization -->
 {#<script src="assets/js/custom.js"></script>#}
@@ -119,6 +126,7 @@
 <script src="{% static 'js/fancy-box.js' %}"></script>
 <script src="{% static 'js/owl-carousel.js' %}"></script>
 <script src="{% static 'js/style-switcher.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/parallax-slider.js' %}"></script>
 <script type="text/javascript">
     jQuery(document).ready(function () {
         App.init();
@@ -136,6 +144,14 @@
 			FancyBox.initFancybox();
 			OwlCarousel.initOwlCarousel();
 			StyleSwitcher.initStyleSwitcher();
+		});
+	</script>
+<script type="text/javascript">
+		jQuery(document).ready(function() {
+			App.init();
+			OwlCarousel.initOwlCarousel();
+			StyleSwitcher.initStyleSwitcher();
+			ParallaxSlider.initParallaxSlider();
 		});
 	</script>
 <!--[if lt IE 9]>
