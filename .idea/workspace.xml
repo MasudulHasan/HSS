@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ae4c34e-73cb-4b69-9241-032aa3511f8f" name="Default" comment="" />
+    <list default="true" id="6ae4c34e-73cb-4b69-9241-032aa3511f8f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poll/static/home/assets/img/banner1.jpg" afterPath="$PROJECT_DIR$/poll/static/home/assets/img/banner1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poll/static/home/assets/img/banner2.jpg" afterPath="$PROJECT_DIR$/poll/static/home/assets/img/banner2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poll/static/home/assets/css/homecustom.css" afterPath="$PROJECT_DIR$/poll/static/home/assets/css/homecustom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poll/templates/poll/home.html" afterPath="$PROJECT_DIR$/poll/templates/poll/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/aboutUs.html" afterPath="$PROJECT_DIR$/templates/aboutUs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/slider.html" afterPath="$PROJECT_DIR$/templates/slider.html" />
+    </list>
     <ignored path="HSS.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -28,8 +36,38 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/poll/templates/poll/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poll/static/home/assets/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="222" column="19" selection-start-line="222" selection-start-column="19" selection-end-line="222" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slider.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/slider.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homecustom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poll/static/home/assets/css/homecustom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -38,18 +76,18 @@
       <file leaf-file-name="parallaxCounter.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/parallaxCounter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutUs.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="aboutUs.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/aboutUs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="143" selection-start-line="22" selection-start-column="143" selection-end-line="22" selection-end-column="143" />
+            <state relative-caret-position="240">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -58,7 +96,7 @@
       <file leaf-file-name="feature_block.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/feature_block.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
+            <state relative-caret-position="525">
               <caret line="35" column="67" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="67" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
@@ -78,28 +116,8 @@
       <file leaf-file-name="parallax-slider.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/poll/static/home/assets/css/parallax-slider.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="877">
+            <state relative-caret-position="10920">
               <caret line="728" column="46" selection-start-line="728" selection-start-column="46" selection-end-line="728" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slider.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/slider.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="faq.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FAQ/templates/FAQ/faq.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-252">
-              <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -108,7 +126,7 @@
       <file leaf-file-name="sop.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SOP/templates/SOP/sop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="840">
               <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
               <folding />
             </state>
@@ -118,7 +136,7 @@
       <file leaf-file-name="introductoryWord.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/introductoryWord.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="210">
               <caret line="14" column="10" selection-start-line="3" selection-start-column="4" selection-end-line="14" selection-end-column="10" />
               <folding />
             </state>
@@ -154,7 +172,6 @@
         <option value="$PROJECT_DIR$/templates/searchBlock.html" />
         <option value="$PROJECT_DIR$/poll/static/home/assets/css/page_search.css" />
         <option value="$PROJECT_DIR$/poll/static/home/assets/css/custom.css" />
-        <option value="$PROJECT_DIR$/poll/static/home/assets/css/homecustom.css" />
         <option value="$PROJECT_DIR$/FAQ/templates/FAQ/faq.html" />
         <option value="$PROJECT_DIR$/templates/sop.html" />
         <option value="$PROJECT_DIR$/templates/importance_of_sop.html" />
@@ -162,9 +179,10 @@
         <option value="$PROJECT_DIR$/SOP/templates/SOP/sop.html" />
         <option value="$PROJECT_DIR$/poll/static/home/assets/css/parallax-slider.css" />
         <option value="$PROJECT_DIR$/templates/feature_block.html" />
-        <option value="$PROJECT_DIR$/templates/aboutUs.html" />
-        <option value="$PROJECT_DIR$/poll/templates/poll/home.html" />
+        <option value="$PROJECT_DIR$/poll/static/home/assets/css/homecustom.css" />
         <option value="$PROJECT_DIR$/templates/slider.html" />
+        <option value="$PROJECT_DIR$/poll/templates/poll/home.html" />
+        <option value="$PROJECT_DIR$/templates/aboutUs.html" />
       </list>
     </option>
   </component>
@@ -175,8 +193,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1378" />
+    <option name="x" value="43" />
+    <option name="y" value="24" />
+    <option name="width" value="1323" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -483,10 +502,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="43" y="24" width="1323" height="744" extended-state="1" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24489796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -747,22 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poll/static/home/assets/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4199">
-          <caret line="247" column="0" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poll/static/home/assets/css/homecustom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -770,7 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,7 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="112" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="112" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +797,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FAQ/templates/FAQ/faq.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
+        <state relative-caret-position="840">
           <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding />
         </state>
@@ -805,7 +805,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SOP/templates/SOP/sop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="840">
           <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
           <folding />
         </state>
@@ -813,7 +813,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/poll/static/home/assets/css/parallax-slider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="877">
+        <state relative-caret-position="10920">
           <caret line="728" column="46" selection-start-line="728" selection-start-column="46" selection-end-line="728" selection-end-column="46" />
           <folding />
         </state>
@@ -823,13 +823,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/introductoryWord.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="210">
           <caret line="14" column="10" selection-start-line="3" selection-start-column="4" selection-end-line="14" selection-end-column="10" />
           <folding />
         </state>
@@ -839,13 +838,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/feature_block.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="525">
           <caret line="35" column="67" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="67" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
@@ -863,32 +861,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/parallaxCounter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/aboutUs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="143" selection-start-line="22" selection-start-column="143" selection-end-line="22" selection-end-column="143" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poll/templates/poll/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/slider.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poll/static/home/assets/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="222" column="19" selection-start-line="222" selection-start-column="19" selection-end-line="222" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poll/static/home/assets/css/homecustom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poll/templates/poll/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/aboutUs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding />
         </state>
       </provider>

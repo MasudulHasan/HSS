@@ -66,25 +66,13 @@
 {% include 'aboutUs.html' %}
 <!-- End Testimonials -->
 
-{% comment %}<!-- Parallax Counter -->
-{% include 'parallaxCounter.html' %}
-<!-- End Parallax Counter -->
-
-<!-- News -->
-{% include 'news.html' %}
-<!-- End News -->{% endcomment %}
-
 <!-- Team -->
 {% include 'team.html' %}
 <!-- End Team -->
 
-<!-- Clients -->
-
-<!-- End Clients -->
-
-<!-- Contact -->
+<!-- Footer -->
 {% include 'footer.html' %}
-<!-- End Contact -->
+<!-- End Footer -->
 
 <!-- JS Global Compulsory -->
 <script src="{% static 'plugins/jquery/jquery.min.js' %}"></script>
@@ -109,7 +97,7 @@
 
 <!-- JS Customization -->
 {#<script src="assets/js/custom.js"></script>#}
-<script src="{% static 'js/custom.js' %}"></script>
+{#<script src="{% static 'js/custom.js' %}"></script>#}
 <!-- Google Map -->
 <script src="https://maps.googleapis.com/maps/api/js?signed_in=true&amp;callback=initMap" async defer></script>
 <script src="{% static 'home/assets/js/plugins/gmaps-ini.js' %}"></script>
@@ -127,7 +115,7 @@
 <script src="{% static 'js/owl-carousel.js' %}"></script>
 <script src="{% static 'js/style-switcher.js' %}"></script>
 <script type="text/javascript" src="{% static 'js/parallax-slider.js' %}"></script>
-<script type="text/javascript">
+{% comment %}<script type="text/javascript">
     jQuery(document).ready(function () {
         App.init();
         Owl2Carouselv1.initOwl2Carouselv1();
@@ -153,7 +141,19 @@
 			StyleSwitcher.initStyleSwitcher();
 			ParallaxSlider.initParallaxSlider();
 		});
-	</script>
+</script>{% endcomment %}
+<script>
+    $(document).ready(function(){
+        $("#mycarousel").carousel( { interval: 3000 } );
+        {% comment %}$("#carousel-pause").click(function(){
+            $("#mycarousel").carousel('pause');
+        });
+        $("#carousel-play").click(function(){
+            $("#mycarousel").carousel('cycle');
+        });{% endcomment %}
+    });
+
+</script>
 <!--[if lt IE 9]>
   <script src="{% static 'plugins/respond.js' %}"></script>
   <script src="{% static 'plugins/html5shiv.js' %}"></script>
